@@ -1,0 +1,340 @@
+---
+name: modernc.org/libc
+package: Turboscan
+licenses:
+    - text: "Copyright (c) <year> <owner>. \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: |-
+        (c) 2010 Lockless Inc.
+        (c) UNIX System Laboratories, Inc.
+        Copyright (c) 1980, 1983, 1988, 1993 The Regents of the University of California
+        Copyright (c) 1982, 1985, 1986, 1988, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1982, 1986 Regents of the University of California
+        Copyright (c) 1982, 1986, 1988 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1989, 1991 Regents of the University of California
+        Copyright (c) 1982, 1986, 1989, 1991, 1993 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1989, 1993 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1989, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1990, 1993 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1990, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1991, 1993 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1991, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1993 Regents of the University of California
+        Copyright (c) 1982, 1986, 1993 The Regents of the University of California
+        Copyright (c) 1982, 1986, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1983, 1984, 1985, 1986, 1987, 1988, 1989 AT&T
+        Copyright (c) 1983, 1990, 1993 The Regents of the University of California
+        Copyright (c) 1984, 1986, 1987, 1988, 1989 AT&T
+        Copyright (c) 1984, 1986, 1987, 1988, 1989, 1990 AT&T
+        Copyright (c) 1986, 1989, 1991, 1993 The Regents of the University of California
+        Copyright (c) 1987, 1991 Regents of the University of California
+        Copyright (c) 1987, 1991, 1993 The Regents of the University of California
+        Copyright (c) 1988 AT&T
+        Copyright (c) 1988 The Regents of the University of California
+        Copyright (c) 1988-1994 Sun Microsystems, Inc. 2550 Garcia Avenue Mountain View, California 94043
+        Copyright (c) 1988, 1989, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1988, 1993 The Regents of the University of California
+        Copyright (c) 1988, 2010, Oracle and/or its affiliates
+        Copyright (c) 1989 by Hewlett-Packard Company, Palo Alto, Ca. & Digital Equipment Corporation, Maynard, Mass
+        Copyright (c) 1989 The Regents of the University of California
+        Copyright (c) 1989-2018 Free Software Foundation, Inc.
+        Copyright (c) 1989-2020 Free Software Foundation, Inc.
+        Copyright (c) 1989-2021 Free Software Foundation, Inc.
+        Copyright (c) 1989-2023 Free Software Foundation, Inc.
+        Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+        Copyright (c) 1989, 1993
+        Copyright (c) 1989, 1993 The Regents of the University of California
+        Copyright (c) 1989, 2010, Oracle and/or its affiliates
+        Copyright (c) 1990 The Regents of the University of California
+        Copyright (c) 1990- 1993, 1996 Open Software Foundation, Inc.
+        Copyright (c) 1990, 1991 UNIX System Laboratories, Inc.
+        Copyright (c) 1990, 1993
+        Copyright (c) 1990, 1993 The Regents of the University of California
+        Copyright (c) 1991 The Regents of the University of California
+        Copyright (c) 1991-1998 by Sun Microsystems, Inc.
+        Copyright (c) 1991-2018 Free Software Foundation, Inc.
+        Copyright (c) 1991-2020 Free Software Foundation, Inc.
+        Copyright (c) 1991-2021 Free Software Foundation, Inc.
+        Copyright (c) 1991-2022 Free Software Foundation, Inc.
+        Copyright (c) 1991-2023 Free Software Foundation, Inc.
+        Copyright (c) 1991, 1993
+        Copyright (c) 1991, 1993 The Regents of the University of California
+        Copyright (c) 1991, 1993, 1994 The Regents of the University of California
+        Copyright (c) 1991, 2010, Oracle and/or its affiliates
+        Copyright (c) 1991, Sun Microsystems, Inc.
+        Copyright (c) 1991,1997,2000 by Sun Microsystems, Inc.
+        Copyright (c) 1992 NeXT Computer, Inc.
+        Copyright (c) 1992-2018 Free Software Foundation, Inc.
+        Copyright (c) 1992-2020 Free Software Foundation, Inc.
+        Copyright (c) 1992-2021 Free Software Foundation, Inc.
+        Copyright (c) 1992-2021 The FreeBSD Project
+        Copyright (c) 1992-2022 Free Software Foundation, Inc.
+        Copyright (c) 1992-2023 Free Software Foundation, Inc.
+        Copyright (c) 1992, 1993 The Regents of the University of California
+        Copyright (c) 1993
+        Copyright (c) 1993 The Regents of the University of California
+        Copyright (c) 1993-1998 by Sun Microsystems, Inc.
+        Copyright (c) 1993-2020 Free Software Foundation, Inc.
+        Copyright (c) 1993-2021 Free Software Foundation, Inc.
+        Copyright (c) 1993-2023 Free Software Foundation, Inc.
+        Copyright (c) 1993, 1994 by Chris Provenzano, proven@mit.edu
+        Copyright (c) 1993, 2010, Oracle and/or its affiliates
+        Copyright (c) 1993,2004 Sun Microsystems
+        Copyright (c) 1994 Brini
+        Copyright (c) 1994 David Burren
+        Copyright (c) 1994-1996 Mark Brinicombe
+        Copyright (c) 1994-2020 Free Software Foundation, Inc.
+        Copyright (c) 1994-2021 Free Software Foundation, Inc.
+        Copyright (c) 1994-2023 Free Software Foundation, Inc.
+        Copyright (c) 1995 NeXT Computer, Inc.
+        Copyright (c) 1995-1998 by John Birrell <jb@cimlogic.com.au>
+        Copyright (c) 1995-2020 Free Software Foundation, Inc.
+        Copyright (c) 1995-2021 Free Software Foundation, Inc.
+        Copyright (c) 1995-2023 Free Software Foundation, Inc.
+        Copyright (c) 1995, 1996, 1997, 1998, 1999 Craig Metz
+        Copyright (c) 1995, 1996, 1997, and 1998 WIDE Project
+        Copyright (c) 1995, 1998 by Sun Microsystems, Inc.
+        Copyright (c) 1996 The NetBSD Foundation, Inc.
+        Copyright (c) 1996 Theo de Raadt
+        Copyright (c) 1996-1998 Russell King
+        Copyright (c) 1996-2020 Free Software Foundation, Inc.
+        Copyright (c) 1996-2021 Free Software Foundation, Inc.
+        Copyright (c) 1996-2023 Free Software Foundation, Inc.
+        Copyright (c) 1996, 1997 HD Associates, Inc.
+        Copyright (c) 1996, 1997, 1998 Theodore Ts'o
+        Copyright (c) 1996, 2010, Oracle and/or its affiliates
+        Copyright (c) 1997 Apple Computer, Inc.
+        Copyright (c) 1997 Niklas Hallqvist
+        Copyright (c) 1997 Peter Wemm
+        Copyright (c) 1997 Peter Wemm <peter@freebsd.org>
+        Copyright (c) 1997 Theo de Raadt
+        Copyright (c) 1997-2020 Free Software Foundation, Inc.
+        Copyright (c) 1997-2021 Free Software Foundation, Inc.
+        Copyright (c) 1997-2023 Free Software Foundation, Inc.
+        Copyright (c) 1998 Apple Compter, Inc.
+        Copyright (c) 1998 by Sun Microsystems, Inc.
+        Copyright (c) 1998 Microsoft. To
+        Copyright (c) 1998 The NetBSD Foundation, Inc.
+        Copyright (c) 1998-1999 Apple Computer, Inc.
+        Copyright (c) 1998-2020 Free Software Foundation, Inc.
+        Copyright (c) 1998-2021 Free Software Foundation, Inc.
+        Copyright (c) 1998-2023 Free Software Foundation, Inc.
+        Copyright (c) 1998, 1999 Apple Computer, Inc.
+        Copyright (c) 1998, 2000 The NetBSD Foundation, Inc.
+        Copyright (c) 1998, 2010, Oracle and/or its affiliates
+        Copyright (c) 1999 Citrus Project
+        Copyright (c) 1999 Marcel Moolenaar
+        Copyright (c) 1999 The NetBSD Foundation, Inc.
+        Copyright (c) 1999-2019, Arm Limited
+        Copyright (c) 1999-2020 Free Software Foundation, Inc.
+        Copyright (c) 1999-2023 Free Software Foundation, Inc.
+        Copyright (c) 1999, 2000, 2001, 2002, 2007, 2008 The NetBSD Foundation, Inc.
+        Copyright (c) 1999, 2003 The NetBSD Foundation, Inc.
+        Copyright (c) 1999, 2010, Oracle and/or its affiliates
+        Copyright (c) 2000 Apple Computer, Inc.
+        Copyright (c) 2000-2002 Apple Computer, Inc.
+        Copyright (c) 2000-2003 Apple Computer, Inc.
+        Copyright (c) 2000-2004 Apple Computer, Inc.
+        Copyright (c) 2000-2005 Apple Computer, Inc.
+        Copyright (c) 2000-2006 Apple Computer, Inc.
+        Copyright (c) 2000-2007 Apple Inc.
+        Copyright (c) 2000-2008 Apple Inc.
+        Copyright (c) 2000-2009 Apple Inc.
+        Copyright (c) 2000-2009 Apple, Inc.
+        Copyright (c) 2000-2012 Apple Inc.
+        Copyright (c) 2000-2012 Apple, Inc.
+        Copyright (c) 2000-2013 Apple Inc.
+        Copyright (c) 2000-2014 Apple Inc.
+        Copyright (c) 2000-2015, 2017 Mark R. V. Murray
+        Copyright (c) 2000-2018 Apple Inc.
+        Copyright (c) 2000-2019 Apple Inc.
+        Copyright (c) 2000-2020 Free Software Foundation, Inc.
+        Copyright (c) 2000, 2001, 2002 The NetBSD Foundation, Inc.
+        Copyright (c) 2000, 2002 - 2008 Apple Inc.
+        Copyright (c) 2000, 2002-2006, 2008-2010, 2012 Apple Inc.
+        Copyright (c) 2000, 2002-2008 Apple Inc.
+        Copyright (c) 2000, 2003-2006, 2008, 2012 Apple Inc.
+        Copyright (c) 2000, 2004-2007, 2009 Apple Inc.
+        Copyright (c) 2000, 2005, 2007, 2009, 2010 Apple Inc.
+        Copyright (c) 2001 Alexey Zelkin <phantom@FreeBSD.org>
+        Copyright (c) 2001 David E. O'Brien
+        Copyright (c) 2001 Mike Barcroft <mike@FreeBSD.org>
+        Copyright (c) 2001 PPC64 Team, IBM Corp
+        Copyright (c) 2001 The NetBSD Foundation, Inc.
+        Copyright (c) 2001-2008 Ville Laurikari
+        Copyright (c) 2001-2020 Free Software Foundation, Inc.
+        Copyright (c) 2001-2021 Free Software Foundation, Inc.
+        Copyright (c) 2001-2023 Free Software Foundation, Inc.
+        Copyright (c) 2001, 2002 The NetBSD Foundation, Inc.
+        Copyright (c) 2001, 2004 The NetBSD Foundation, Inc.
+        Copyright (c) 2001, 2008 The NetBSD Foundation, Inc.
+        Copyright (c) 2002 Apple Computer, Inc.
+        Copyright (c) 2002 Hiten Mahesh Pandya
+        Copyright (c) 2002 Marc Espie
+        Copyright (c) 2002 Marcel Moolenaar
+        Copyright (c) 2002 Mike Barcroft <mike@FreeBSD.org>
+        Copyright (c) 2002 The NetBSD Foundation, Inc.
+        Copyright (c) 2002-2008, Jeffrey Roberson <jeff@freebsd.org>
+        Copyright (c) 2002-2020 Free Software Foundation, Inc.
+        Copyright (c) 2002-2021 Free Software Foundation, Inc.
+        Copyright (c) 2002-2023 Free Software Foundation, Inc.
+        Copyright (c) 2002,2005 Marcel Moolenaar
+        Copyright (c) 2003 Marcel Moolenaar
+        Copyright (c) 2003 Peter Wemm
+        Copyright (c) 2003 Poul-Henning Kamp
+        Copyright (c) 2003-2007 Apple Inc.
+        Copyright (c) 2003-2009 Bruce D. Evans
+        Copyright (c) 2003-2009 Steven G. Kargl
+        Copyright (c) 2003-2011 David Schultz
+        Copyright (c) 2003-2012 Apple Inc.
+        Copyright (c) 2003-2013 Apple Inc.
+        Copyright (c) 2003-2020 Free Software Foundation, Inc.
+        Copyright (c) 2003, 2010, Oracle and/or its affiliates
+        Copyright (c) 2004 Apple Computer, Inc.
+        Copyright (c) 2004 Tim J. Robbins.
+        Copyright (c) 2004-2006 Apple Computer, Inc.
+        Copyright (c) 2004-2007 Apple Inc.
+        Copyright (c) 2004-2020 Free Software Foundation, Inc.
+        Copyright (c) 2004, 2006 Apple Computer, Inc.
+        Copyright (c) 2004, 2008, 2009 Apple Inc.
+        copyright (c) 2005 Ch. Q. Lauter and F. de Dinechin and V.Lefevre
+        copyright (c) 2005 Ch. Q. Lauter and V.Lefevre
+        copyright (c) 2005 Ch. Q. Lauter, F. de Dinechin and V.Lefevre
+        copyright (c) 2005 Ch. Q. Lauter, F.de Dinechin and V.Lefevre
+        copyright (c) 2005 F. de Dinechin and V.Lefevre
+        copyright (c) 2005 F. de Dinechin, Ch. Q. Lauter and V. Lefevre
+        copyright (c) 2005 F. de Dinechin, Ch. Q. Lauter and V.Lefevre
+        Copyright (c) 2005-2013 libc-test
+        Copyright (c) 2005-2020 Rich Felker
+        copyright (c) 2006 Ch. Q. Lauter and V.Lefevre
+        Copyright (c) 2006-2007 Apple Inc.
+        copyright (c) 2007 F. de Dinechin, Ch. Q. Lauter and V. Lefevre
+        Copyright (c) 2007-2016 by Apple Inc
+        Copyright (c) 2008 Apple Computer, Inc.
+        Copyright (c) 2008 Nokia Corporation
+        Copyright (c) 2008 Stephen L. Moshier
+        Copyright (c) 2008 The Android Open Source Project
+        Copyright (c) 2008-2018 Apple Inc.
+        Copyright (c) 2008-2020 Apple Inc.
+        Copyright (c) 2008, Jeffrey Roberson <jeff@freebsd.org>
+        Copyright (c) 2009 The Go Authors
+        Copyright (c) 2009-2020 Free Software Foundation, Inc.
+        Copyright (c) 2010 Apple Inc.
+        Copyright (c) 2010 Citrus Project
+        Copyright (c) 2010, Oracle America, Inc.
+        Copyright (c) 2011 David E. O'Brien <obrien@FreeBSD.org>
+        Copyright (c) 2011 The FreeBSD Foundation
+        Copyright (c) 2011 Valentin Ochs
+        Copyright (c) 2011-2016 mingw-w64 project
+        Copyright (c) 2011-2020 Free Software Foundation, Inc.
+        Copyright (c) 2011-2021 Free Software Foundation, Inc.
+        Copyright (c) 2011-2023 Free Software Foundation, Inc.
+        Copyright (c) 2011, 2012 The FreeBSD Foundation
+        Copyright (c) 2011, 2017 by Delphix
+        Copyright (c) 2012 Apple Inc.
+        Copyright (c) 2012 ARM Ltd.
+        Copyright (c) 2012 by Delphix
+        Copyright (c) 2012 Dominik Honnef
+        Copyright (c) 2012-2020 Free Software Foundation, Inc.
+        Copyright (c) 2012-2021 Free Software Foundation, Inc.
+        Copyright (c) 2012-2023 Free Software Foundation, Inc.
+        Copyright (c) 2013 Gary Mills
+        Copyright (c) 2013-2014 Apple Inc.
+        Copyright (c) 2013-2016 mingw-w64 project
+        Copyright (c) 2013, 2016 by Delphix
+        Copyright (c) 2013, Joyent, Inc.
+        Copyright (c) 2013, OmniTI Computer Consulting, Inc.
+        Copyright (c) 2014 by Delphix
+        Copyright (c) 2014 The NetBSD Foundation, Inc.
+        Copyright (c) 2014, Joyent, Inc.
+        Copyright (c) 2015 Regents of the University of California
+        Copyright (c) 2015-2020 Free Software Foundation, Inc.
+        Copyright (c) 2015, Joyent, Inc.
+        Copyright (c) 2016 Apple Inc.
+        Copyright (c) 2016 The NetBSD Foundation, Inc.
+        Copyright (c) 2016-2018 Apple Inc.
+        Copyright (c) 2016-2020 Free Software Foundation, Inc.
+        Copyright (c) 2016-2021 Free Software Foundation, Inc.
+        Copyright (c) 2016-2023 Free Software Foundation, Inc.
+        Copyright (c) 2016, 2017 by Delphix
+        Copyright (c) 2017 Apple Inc.
+        Copyright (c) 2017 The Libc Authors
+        Copyright (c) 2017-2018 Arm Limited
+        Copyright (c) 2017-2020 Free Software Foundation, Inc.
+        Copyright (c) 2017-2021 Free Software Foundation, Inc.
+        Copyright (c) 2017-2023 Free Software Foundation, Inc.
+        Copyright (c) 2018-2020 Free Software Foundation, Inc.
+        Copyright (c) 2018-2023 Free Software Foundation, Inc.
+        Copyright (c) 2018, Joyent, Inc.
+        Copyright (c) 2019 by Apple Inc
+        Copyright (c) 2019 Luke Champine
+        Copyright (c) 2019-2020 Free Software Foundation, Inc.
+        Copyright (c) 2019-2021 Free Software Foundation, Inc.
+        Copyright (c) 2019-2023 Free Software Foundation, Inc.
+        Copyright (c) 2020 Free Software Foundation, Inc.
+        Copyright (c) 2020-2021 Free Software Foundation, Inc.
+        Copyright (c) 2020-2022 Loongson Technology Corporation Limited
+        Copyright (c) 2020-2023 Free Software Foundation, Inc.
+        Copyright (c) 2021 Free Software Foundation, Inc.
+        Copyright (c) 2021 The FreeBSD Foundation
+        Copyright (c) 2021-2023 Free Software Foundation, Inc.
+        Copyright (c) 2022-2023 Free Software Foundation, Inc.
+        Copyright (c)1999 Citrus Project
+        Copyright 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994 The Regents of the University of California
+        Copyright 1993-2003 Sun Microsystems, Inc.
+        Copyright 1995 NeXT Computer, Inc.
+        Copyright 1996 1995 by Open Software Foundation, Inc. 1997 1996 1995 1994 1993 1992 1991
+        Copyright 1997 Sun Microsystems, Inc.
+        Copyright 2003 Sun Microsystems, Inc.
+        Copyright 2004 Sun Microsystems, Inc.
+        Copyright 2005 Sun Microsystems, Inc.
+        Copyright 2006 Sun Microsystems, Inc.
+        Copyright 2007 Sun Microsystems, Inc.
+        Copyright 2008 Sun Microsystems, Inc.
+        Copyright 2009 Sun Microsystems, Inc.
+        Copyright 2010 Nexenta Systems, Inc.
+        Copyright 2010 Sun Microsystems, Inc.
+        Copyright 2010 The Go Authors
+        Copyright 2011 Nexenta Systems, Inc.
+        Copyright 2013 Garrett D'Amore <garrett@damore.org>
+        Copyright 2013 Nexenta Systems, Inc.
+        Copyright 2014 Andrew Stormont
+        Copyright 2014 Garrett D'Amore <garrett@damore.org>
+        Copyright 2014 Garrrett D'Amore <garrett@damore.org>
+        Copyright 2014 Igor Kozhukhov <ikozhukhov@gmail.com>
+        Copyright 2014 Nexenta Systems, Inc.
+        Copyright 2014 PALO, Richard
+        Copyright 2014-2016 PALO, Richard
+        Copyright 2015 EveryCity Ltd.
+        Copyright 2015 Garrett D'Amore <garrett@damore.org>
+        Copyright 2015 Joyent, Inc.
+        Copyright 2015 Nexenta Systems, Inc.
+        Copyright 2015, Joyent, Inc.
+        Copyright 2016 Joyent, Inc.
+        Copyright 2016 Nexenta Systems, Inc.
+        Copyright 2016 Toomas Soome <tsoome@me.com>
+        Copyright 2017 Joyent, Inc.
+        Copyright 2017 RackTop Systems
+        Copyright 2018 Joyent, Inc.
+        Copyright 2019 Joyent, Inc.
+        Copyright 2019 Nexenta Systems, Inc.
+        Copyright 2020 Joyent, Inc.
+        Copyright 2020 OmniOS Community Edition (OmniOSce) Association
+        Copyright 2020 The Libc Authors
+        Copyright 2021 Oxide Computer Company
+        Copyright 2021 The Libc Authors
+        Copyright 2022 Garrett D'Amore
+        Copyright 2022 OmniOS Community Edition (OmniOSce) Association
+        Copyright 2022 Oxide Computer Company
+        Copyright 2022 The Libc Authors
+        Copyright 2023 The Libc Authors
+        Copyright 2024 The Libc Authors
+        copyright C 1988 by the Institute of Electrical and Electronics Engineers, Inc.
+        Copyright End BIND
+        Copyright IBM Corp. 1999, 2000
+        copyrighted by the Free Software Foundation
+        copyrighted by The Regents of the University of California
+        Portions Copyright (c) 1993 by Digital Equipment Corporation
+        Portions Copyright (c) 1995, 1996, Jason Downs
+        Portions Copyright (c) 1995, Jason Downs
+        Portions copyright (c) 2000-2011 Apple Inc.
+        Portions copyright (c) 2000-2018 Apple Inc.
