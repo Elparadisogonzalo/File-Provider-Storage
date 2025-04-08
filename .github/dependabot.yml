@@ -1,7 +1,8 @@
 # To get started with options:%0A%23%20https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file%0A%0Aversion:%202 version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# https://docs.github.com/code-security/- name: Attest Build Provenance
+  uses: actions/attest-build-provenance@v2.2.3dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 # .github/dependabot.yml
 version: 2
