@@ -1,0 +1,131 @@
+---
+name: pygments
+package: Notebooks
+licenses:
+    - text: "Copyright (c) <year> <owner> \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: |-
+        (c) 2000-2003 by cYcnus visit www.cYcnus.de
+        (c) 2006-2024 by Georg Brandl, Matthaus Chajdas and contributors
+        (c) 2010 Jeremy Ashkenas, DocumentCloud Inc.
+        (c) 2010 Jeremy Ashkenas, DocumentCloud Inc. Underscore
+        (c) 2014
+        (c) 2014 Comment.Multiline Text.Whitespace
+        (c) 2015 Andreas Rossberg
+        (c) Copyright 1999, Artran, Inc.
+        (c) Copyright 2006 by http://mydomain.tld'>
+        (c) Copyright 2006 Salvatore Filippone University of Rome Tor Vergata Alfredo Buttari University of Rome Tor Vergata
+        (c) Copyright 2006 Salvatore Filippone University of Rome Tor Vergata Comment
+        (c) Copyright 2006-2024, Georg Brandl and Pygments contributors
+        (c) FSF.
+        (c) Justin Fletcher
+        (c) Justin Fletcher, 1998
+        (c) Name.Entity 1998-2009, Modelica Association
+        (c) Name.Entity Copyright 2006 by Text Punctuation
+        (c) openEHR Foundation
+        (c) opyright 2003, MetaQuotes Software Corp.
+        (c) V End
+        Copyright (c) 1984, 1985, 1988, 2010 Howard Trickey and Oren Patashnik
+        Copyright (c) 1984, 1985, 1988, 2010 Howard Trickey and Oren Patashnik. Unlimited
+        Copyright (c) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+        Copyright (c) 1985-1986, 1992, 1994-1995, 1999-2015 Free Software Comment.Single
+        Copyright (c) 1985-1986, 1992, 1994-1995, 1999-2015 Free Software Foundation, Inc.
+        Copyright (c) 1991, 1992, Jos van de Woude, jvdwoude@hut.nl
+        Copyright (c) 1991, Jos van der Woude, jvdwoude@hut.nl
+        Copyright (c) 1991, Jos van der Woude, jvdwoude@hut.nl Comment
+        Copyright (c) 1993-2003 Yukihiro Matsumoto
+        Copyright (c) 1994-5 by the Regents of the University of California
+        Copyright (c) 1995-2004 Functional Objects, Inc.
+        Copyright (c) 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+        Copyright (c) 1996-2016 by the PostgreSQL Global Development Group
+        Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005 Comment.Single
+        Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005 Free Software Foundation, Inc.
+        Copyright (c) 1997 Borland International
+        Copyright (c) 1998 Comment
+        Copyright (c) 1998 the Initial Developer
+        Copyright (c) 1998-2009, Modelica Association
+        Copyright (c) 1998,1999,2000,2001,2002 Tal Davidson
+        Copyright (c) 2000 Information-technology Promotion Agency, Japan
+        Copyright (c) 2000 Network Applied Communication Laboratory, Inc.
+        Copyright (c) 2003
+        copyright (c) 2004 by Andre Simon
+        Copyright (c) 2004, 2005, 2006 Aelitis
+        Copyright (c) 2005 Free Software Foundation, Inc.
+        Copyright (c) 2005-2006
+        Copyright (c) 2005-2007 Terence Parr
+        Copyright (c) 2006 Kashia Buch (kashia@vfemail.net), Fabian Buch (fabian@fabian-buch.de)
+        Copyright (c) 2006-2022 by the
+        Copyright (c) 2006, Manni
+        Copyright (c) 2007-2008 - INRIA
+        Copyright (c) 2008 Silken
+        Copyright (c) 2008 Slava Pestov
+        Copyright (c) 2008 Slava Pestov Comment
+        Copyright (c) 2008 The Regents of the University of California
+        Copyright (c) 2008-2011 The Regents of the University of California
+        Copyright (c) 2008, Brian Frank and Andy Frank
+        Copyright (c) 2009 Benjamin Kowarsch
+        Copyright (c) 2009 The R Foundation for Statistical Computing
+        Copyright (c) 2009 The R Foundation for Statistical Computing ISBN
+        Copyright (c) 2009-2010, Gary L.
+        Copyright (c) 2009-2010, Gary L. Cutler
+        Copyright (c) 2009-2010, Gary L. Cutler, GPL
+        Copyright (c) 2009-2010, Gary L. Cutler, GPL Comment
+        Copyright (c) 2009-2010, Gary L. Cutler, GPL Literal.String.Double . Punctuation
+        Copyright (c) 2010, Gary L. Cutler, GPL
+        Copyright (c) 2010, Gary L. Cutler, GPL Comment
+        Copyright (c) 2011 Nokia Corporation and/or its subsidiary(-ies)
+        Copyright (c) 2012-2013 Nenad Rakocevic
+        Copyright (c) 2014 Fullstack.io
+        Copyright (c) 2015 DH electronics GmbH
+        Copyright (C) 2015 DH electronics GmbH
+        Copyright (c) 2015 Georg Brandl
+        Copyright (c) 2017 Johannes Holzl
+        Copyright (c) 2018 Marek Vasut <marex@denx.de>
+        Copyright (c) 2023 Roblox Corporation
+        Copyright (c) Curve.Fi, 2020-2023
+        Copyright (c) INRIA - Serge
+        Copyright (c) Rich Hickey
+        Copyright 1996 Institut National de Recherche en Informatique et Comment Comment
+        Copyright 1996 Institut National de Recherche en Informatique et en Automatique
+        Copyright 1997 University of Cambridge
+        Copyright 1997 University of Cambridge Comment
+        Copyright 1999-2011 ( VV/ )
+        Copyright 1999-2011 Comment Comment
+        Copyright 2004-2008 Jean Privat <jean@pryen.org>
+        Copyright 2005 Brian Alliet
+        Copyright 2005 Brian Alliet Comment
+        Copyright 2006-'+date
+        copyright 2006-2014, MetaQuotes Software Corp.
+        Copyright 2006-2014, MetaQuotes Software Corp.
+        Copyright 2006-2014, MetaQuotes Software Corp. http://www.metaquotes.net
+        copyright 2006-2014, MetaQuotes Software Corp. property link http://www.mql4.com
+        Copyright 2006-2020 by the Pygments team
+        Copyright 2006-2022 by the Pygments team
+        Copyright 2006-2024 by r'the Pygments team
+        Copyright 2006-2024 by the Pygments team
+        copyright 2006-2024, Georg Brandl and Pygments contributors
+        copyright 2006. Text
+        copyright 2006. Uploaded
+        Copyright 2007-2012 LassoSoft Inc.
+        Copyright 2007-2013 by the Sphinx team
+        Copyright 2007-2021 by the Sphinx team
+        Copyright 2009-2013, MetaQuotes Software Corp.
+        Copyright 2009-2013, MetaQuotes Software Corp. http://www.mql4.com
+        Copyright 2012 by Luis Majano and Ortus Solutions, Corp www.gocontentbox.org www.luismajano.com www.ortussolutions.com
+        Copyright 2012 Nokia Siemens Networks Oyj
+        Copyright 2012-2013 Alexis Laferriere <alexis.laf@xymus.net>
+        Copyright 2012-2018 Manas Technology Solutions
+        Copyright 2013 Alexis Laferriere <alexis.laf@xymus.net>
+        Copyright 2013 Matthieu Lucas <lucasmatthieu@gmail.com>
+        Copyright 2013 Wikimedia
+        Copyright 2014 Alexis Laferriere <alexis.laf@xymus.net>
+        Copyright 2014 Lucas Bajolet <r4pass@hotmail.com>
+        Copyright 2015 Ruben De Smet
+        Copyright 2020 Microsoft Research
+        Copyright 2021 by the Pygments team
+        Copyright 2023 The Redblox Authors
+        Copyright content Knut Muller, Alexander Wolf, Uwe Ritzschke, Paul-Robert Achcenich, 2006
+        Francisco Tolmasky. Copyright 2008
+        Leaf Corcoran (leafot@gmail.com) 2011
+        Murphy (c) 2000-2003 by cYcnus visit www.cYcnus.de licenser@cYcnus.de
+        Platform Copyright 2012 by Luis Majano and Ortus Solutions, Corp www.gocontentbox.org www.luismajano.com www.ortussolutions.com
+        Portions (c) International Organization
