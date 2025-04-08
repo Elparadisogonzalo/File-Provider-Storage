@@ -1,0 +1,67 @@
+---
+name: debase-ruby_core_source
+package: Github
+licenses:
+    - text: |-
+        MIT License
+
+        Copyright (c) <year> <copyright holders>
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    - text: |-
+        (c) 1995 Microsoft Corporation
+        Copyright (c) 1983, 1995-1997 Eric P. Allman
+        Copyright (c) 1984, 1989-1990, 2000-2011 Free Software Foundation, Inc.
+        Copyright (c) 1984, 1989-1990, 2000-2013 Free Software Foundation, Inc.
+        Copyright (c) 1984, 1989-1990, 2000-2015 Free Software Foundation, Inc.
+        Copyright (c) 1984, 1989-1990, 2000-2015, 2018 Free Software Foundation, Inc.
+        Copyright (c) 1984, 1989-1990, 2000-2015, 2018-2020 Free Software Foundation, Inc.
+        Copyright (c) 1984, 1989-1990, 2000-2015, 2018-2021 Free Software Foundation, Inc.
+        Copyright (c) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+        Copyright (c) 1987, Fujitsu LTD.
+        Copyright (c) 1988, 1993 The Regents of the University of California
+        Copyright (c) 1989, 1993 The Regents of the University of California
+        Copyright (c) 1990, 1993 The Regents of the University of California
+        Copyright (c) 1991, 2000, 2001 by Lucent Technologies
+        Copyright (c) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999 Free Software Foundation, Inc.
+        Copyright (c) 1992, 93, 94, 95, 96 Free Software Foundation, Inc.
+        Copyright (c) 1993-2007 Yukihiro Matsumoto
+        Copyright (c) 1993, Intergraph Corporation
+        Copyright (c) 1995, 1996, 1997, 1998, and 1999 WIDE Project
+        Copyright (c) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura
+        Copyright (c) 1997, 1998 by Gurusamy Sarathy <gsar@umich.edu> and Jan Dubois <jan.dubois@ibm.net>
+        Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+        Copyright (c) 1999, 2000 Aladdin Enterprises
+        Copyright (c) 2002-2007 K.Kosako
+        Copyright (c) 2002-2008 K.Kosako
+        Copyright (c) 2002-2013 K.Kosako
+        Copyright (c) 2004-2007 Koichi Sasada
+        Copyright (c) 2004-2008 David Schultz <das@FreeBSD.ORG>
+        Copyright (c) 2004-2008 Koichi Sasada
+        Copyright (c) 2007 Koichi Sasada
+        Copyright (c) 2007 Martin Duerst
+        Copyright (c) 2009 Koichi Sasada
+        Copyright (c) 2009 Yusuke Endoh
+        Copyright (c) 2010 Shinichiro Hamaji
+        Copyright (c) 2011 K.Takata
+        Copyright (c) 2011 Yukihiro Matsumoto
+        Copyright (c) 2011-2012 K.Takata
+        Copyright (c) 2011-2014 K.Takata
+        Copyright (c) 2011-2016 K.Takata
+        Copyright (c) 2012 Gabriel Horner
+        Copyright (c) 2014 Yukihiro Matsumoto
+        Copyright (c) 2015 Yukihiro Matsumoto
+        Copyright (c) 2017 Koichi Sasada
+        Copyright (c) 2017 Takashi Kokubun <k0kubun@ruby-lang.org>
+        Copyright (c) 2017 Vladimir Makarov <vmakarov@redhat.com>
+        Copyright (c) 2018 Koichi Sasada
+        Copyright (c) 2023 Takashi Kokubun <k0kubun@ruby-lang.org>
+        Copyright (c) Katholieke Universiteit Leuven 1996
+        Copyright 2000 Aaron D. Gifford
+        Copyright 2003 Damien Miller
+        copyrighted by each authors
+        Oniguruma (c) K.Kosako
