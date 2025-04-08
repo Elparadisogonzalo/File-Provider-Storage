@@ -1,0 +1,5 @@
+---
+name: wasm-bindgen-macro-support
+package: Babeld
+licenses:
+    - text: ""
