@@ -1,0 +1,5 @@
+---
+name: Microsoft.Cloud.InstrumentationFramework.EventSchemas.Netstd
+package: Actions Dotnet
+licenses:
+    - text: ""
