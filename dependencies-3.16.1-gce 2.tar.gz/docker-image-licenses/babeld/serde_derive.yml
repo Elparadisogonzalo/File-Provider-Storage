@@ -1,0 +1,5 @@
+---
+name: serde_derive
+package: Babeld
+licenses:
+    - text: ""
