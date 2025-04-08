@@ -1,0 +1,5 @@
+---
+name: github.com/github/spokes-proto/gen/go
+package: Dependency Snapshots Api
+licenses:
+    - text: ""
