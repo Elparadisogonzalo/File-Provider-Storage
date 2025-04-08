@@ -1,0 +1,7 @@
+---
+name: gpgme
+package: Github
+licenses:
+    - text: |-
+        Copyright (c) 2003,2006,2007,2008,2009 Daiki Ueno
+        Copyright 2008 g10 Code GmbH
