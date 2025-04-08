@@ -1,0 +1,114 @@
+---
+name: prettier
+package: Slack
+licenses:
+    - text: |-
+        MIT License
+
+        Copyright (c) <year> <copyright holders>
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    - text: |-
+        (c) ,Object.keys(V).forEach function (c) C
+        (c) GQr 0,r(F3) MQr
+        Copyright (c) 2009-2015, Kevin Decker <kpdecker@gmail.com>
+        Copyright (c) 2011-2015 Paul Vorbach <paul@vorba.ch>
+        Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
+        Copyright (c) 2011-2022 Isaac Z. Schlueter, Ben Noordhuis, and Contributors
+        Copyright (c) 2012 by Jun Woong
+        Copyright (c) 2012 EditorConfig Team
+        Copyright (c) 2012 James Halliday
+        Copyright (c) 2012-2014 by various contributors
+        Copyright (c) 2012-2014 Raynos
+        Copyright (c) 2012-2017 by Ingvar Stepanyan
+        Copyright (c) 2012-2018 Aseem Kishore, and others
+        Copyright (c) 2012-2022 by various contributors
+        Copyright (c) 2013 Andrey Sitnik <andrey@sitnik.ru>
+        Copyright (c) 2013 Dominic Tarr
+        Copyright (c) 2013 James Halliday
+        Copyright (c) 2013 James Halliday (mail@substack.net)
+        Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+        Copyright (c) 2013 Kael Zhang <i@kael.me> , contributors http://kael.me
+        Copyright (c) 2013 Liucw
+        Copyright (c) 2013 Mikola Lysenko
+        Copyright (c) 2013 Raynos
+        Copyright (c) 2013 Thiago de Arruda
+        Copyright (c) 2014 Alex Bell
+        Copyright (c) 2014 Dave Justice
+        Copyright (c) 2014 Stefan Thomas
+        Copyright (c) 2014 Yehuda Katz and contributors
+        Copyright (c) 2014-2016, Jon Schlinkert
+        Copyright (c) 2014-2017, Jon Schlinkert
+        Copyright (c) 2014-2018, Jon Schlinkert
+        Copyright (c) 2014-2020 Teambition
+        Copyright (c) 2014-present Sebastian McKenzie and other contributors
+        Copyright (c) 2014-present, Jon Schlinkert
+        Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
+        Copyright (c) 2015 Brian Donovan
+        Copyright (c) 2015 David Clark
+        Copyright (c) 2015 Dmitry Ivanov
+        Copyright (c) 2015 Elijah Insua
+        Copyright (c) 2015 Javier Blanco
+        Copyright (c) 2015 JD Ballard
+        Copyright (c) 2015 Matteo Collina
+        Copyright (c) 2015 Roy Riojas
+        Copyright (c) 2015 Tilde, Inc.
+        Copyright (c) 2015 Titus Wormer
+        Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>
+        Copyright (c) 2015-2020, Matteo Collina <matteo.collina@gmail.com>
+        Copyright (c) 2015-present, Jon Schlinkert
+        Copyright (c) 2015, 2019 Elan Shanker
+        Copyright (c) 2015, Contributors
+        Copyright (c) 2016 Andrew Bradley
+        Copyright (c) 2016 Denys Kniazevych <webschik@gmail.com>
+        Copyright (c) 2016 Joshua Holbrook
+        Copyright (c) 2016 Pat Sissons <patricksissons@gmail.com>
+        Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
+        Copyright (c) 2016-2021 Thomas Watson Steen
+        Copyright (c) 2016, Rebecca Turner <me@re-becca.org>
+        Copyright (c) 2017 Andrew Powell <andrew@shellscape.org>
+        Copyright (c) 2017 Evgeny Poberezkin
+        Copyright (c) 2017 Klaus Meinhardt
+        Copyright (c) 2017 Martin Munoz and contributors
+        Copyright (c) 2017 Permission
+        Copyright (c) 2017 Titus Wormer <tituswormer@gmail.com>
+        Copyright (c) 2017-present, Jon Schlinkert
+        Copyright (c) 2018 Made With MOXY Lda
+        Copyright (c) 2018-2020, Andrea Giammarchi
+        Copyright (c) 2019 and later, KFlash and others
+        Copyright (c) 2019 these people
+        Copyright (c) 2019 typescript-eslint and other contributors
+        Copyright (c) 2020 Titus Wormer <tituswormer@gmail.com>
+        Copyright (c) 2021 Alexey Raspopov, Kostiantyn Denysov, Anton Verinov
+        Copyright (c) 2022 Sindre Sorhus
+        Copyright (c) Andrew Powell <andrew@shellscape.org>
+        Copyright (c) Ben Briggs <beneb.info@gmail.com> (http://beneb.info)
+        Copyright (c) Denis Malinochkin
+        Copyright (c) Facebook, Inc. and its affiliates
+        Copyright (c) Feross Aboukhadijeh
+        Copyright (c) GraphQL Contributors
+        Copyright (c) Ika <ikatyang@gmail.com> (https://github.com/ikatyang)
+        Copyright (c) Isaac Z. Schlueter
+        Copyright (c) Isaac Z. Schlueter and Contributors
+        Copyright (c) James Long and contributors
+        Copyright (c) Kevin Martensson <kevinmartensson@gmail.com>
+        Copyright (c) Microsoft Corporation
+        Copyright (c) Open JS Foundation
+        Copyright (c) Sam Verschueren <sam.verschueren@gmail.com>
+        Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+        Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+        Copyright (c) Stephen Sugden <me@stephensugden.com> (stephensugden.com)
+        Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
+        Copyright 2013 Thorsten Lorenz
+        Copyright 2017 Kat Marchan
+        Copyright 2018 Eemeli Aro <eemeli@gmail.com>
+        Copyright 2021 ehmicky <ehmicky@gmail.com>
+        Copyright Joyent, Inc. and other Node contributors
+        Copyright JS Foundation and other contributors, https://js.foundation
+        Copyright Mathias Bynens <https://mathiasbynens.be/>
+        Copyright npm, Inc.
+        copyright xA9 2014-2022 Denis Pushkarev
