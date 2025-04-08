@@ -1,0 +1,5 @@
+---
+name: github.com/github/exception-filters/go/rules
+package: Dependency Snapshots Api
+licenses:
+    - text: ""
