@@ -1,0 +1,5 @@
+---
+name: wasm-bindgen-futures
+package: Babeld
+licenses:
+    - text: ""
