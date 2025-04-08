@@ -1,0 +1,5 @@
+---
+name: dependency-graph-npm-adapter
+package: Dependency Graph Api
+licenses:
+    - text: ""
