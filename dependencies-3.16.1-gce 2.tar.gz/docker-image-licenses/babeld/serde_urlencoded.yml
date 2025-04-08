@@ -1,0 +1,5 @@
+---
+name: serde_urlencoded
+package: Babeld
+licenses:
+    - text: ""
