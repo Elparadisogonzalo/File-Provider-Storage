@@ -1,0 +1,48 @@
+---
+name: pyzmq
+package: Notebooks
+licenses:
+    - text: "Copyright (c) <year> <owner> \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: "Copyright (c) <year> <owner>. \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: |-
+        (c) iMatix Corporation
+        (c) PyZMQ Developers
+        Copyright (c) 2003-2007 Robey Pointer <robeypointer@gmail.com>
+        Copyright (c) 2007-2010 iMatix Corporation
+        Copyright (c) 2009-2012, Brian Granger, Min Ragan-Kelley
+        Copyright (c) 2010 Brian E. Granger & Min Ragan-Kelley
+        Copyright (c) 2010 Brian Granger
+        Copyright (c) 2010 Brian Granger, Fernando Perez
+        Copyright (c) 2010 Brian Granger, Min Ragan-Kelley
+        Copyright (c) 2010 Justin Riley
+        Copyright (c) 2010 Lisandro Dalcin
+        Copyright (c) 2010 The IPython Team
+        Copyright (c) 2010-2011 IPython Development Team
+        Copyright (c) 2010-2012 Brian Granger, Min Ragan-Kelley
+        Copyright (c) 2011- PyZMQ Developers
+        Copyright (c) 2011-2012 Travis Cline
+        Copyright (c) 2012 Godefroid Chapelle
+        Copyright (c) 2017-2019 SUSE LINUX GmbH, Nuernberg, Germany
+        Copyright (c) 2022 PyZMQ Developers
+        Copyright (c) PyZMQ Developers
+        Copyright (c) PyZMQ Development Team
+        Copyright (c) Stef van der Struijk
+        Copyright 2003-2007, Robey Pointer <robeypointer@gmail.com> , 2010-2011, IPython Development Team
+        Copyright 2007-2010, iMatix Corporation 2013 Brian Granger, Min Ragan-Kelley
+        Copyright 2009 Facebook
+        Copyright 2009, Facebook
+        Copyright 2010-2011, Brian E. Granger 2010, Andrew Gwozdziewycz 2010, Fernando Perez 2011, 2013, Min Ragan-Kelley
+        Copyright 2010-2011, Miguel Landaeta <miguel@miguel.cc> 2011-2014, Julian Taylor
+        Copyright 2010-2012, Brian Granger 2010-2013, Min Ragan-Kelley 2013 Felipe Cruz 2014 PyZMQ Developers
+        Copyright 2010, Andrew Gwozdziewycz
+        Copyright 2010, Brian E. Granger 2010, Min Ragan-Kelley
+        Copyright 2010, Justin Riley
+        Copyright 2010, Nikolaus Rath <Nikolaus@rath.org>
+        copyright Brian E. Granger & Min Ragan-Kelley. OMQ
+        copyright of Boris Feld
+        copyright of Brian E. Granger
+        copyright of Chris Laws
+        copyright of Frank Wiles
+        copyright of Julian Taylor
+        copyright of Min Ragan-Kelley
+        copyright of Thomas Kluyver
