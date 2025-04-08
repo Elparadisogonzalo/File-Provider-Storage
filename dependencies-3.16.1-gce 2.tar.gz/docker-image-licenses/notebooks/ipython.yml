@@ -1,0 +1,58 @@
+---
+name: ipython
+package: Notebooks
+licenses:
+    - text: "Copyright (c) <year> <owner> \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: "Copyright (c) <year> <owner>. \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: |-
+        (c) Python and NumPy
+        Copyright (c) 2000 Thomas Heller
+        Copyright (c) 2001 Fernando Perez <fperez@colorado.edu>
+        Copyright (c) 2001 Janko Hauser <jhauser@zscout.de>
+        Copyright (c) 2001 Nathaniel Gray <n8gray@caltech.edu>
+        Copyright (c) 2001 Python Software Foundation, www.python.org
+        Copyright (c) 2001-2004 Fernando Perez <fperez@colorado.edu>
+        Copyright (c) 2001-2005 Fernando Perez <fperez@colorado.edu>
+        Copyright (c) 2001-2006 Fernando Perez <fperez@colorado.edu>
+        Copyright (c) 2001-2007 Fernando Perez. <fperez@colorado.edu>
+        Copyright (c) 2001-2007, Fernando Perez <fernando.perez@colorado.edu>
+        Copyright (c) 2001, Fernando Perez <fernando.perez@colorado.edu>
+        Copyright (c) 2001, Janko Hauser <jhauser@zscout.de>
+        Copyright (c) 2001, Nathaniel Gray <n8gray@caltech.edu>
+        Copyright (c) 2002-2006 Fernando Perez. <fperez@colorado.edu>
+        Copyright (c) 2004-2021 Holger Krekel and others
+        Copyright (c) 2005 Fernando Perez <fperez@colorado.edu> Brian E Granger <ellisonbg@gmail.com> Benjamin Ragan-Kelley <benjaminrk@gmail.com>
+        Copyright (c) 2005 Fernando Perez. <fperez@colorado.edu>
+        Copyright (c) 2005 Jorgen Stenarson <jorgen.stenarson@bostream.nu>
+        Copyright (c) 2005-2006 Fernando Perez <fperez@colorado.edu>
+        Copyright (c) 2005-2006 Fernando Perez. <Fernando.Perez@colorado.edu>
+        Copyright (c) 2005-2006 Fernando Perez. <fperez@colorado.edu>
+        Copyright (c) 2008 Pauli Virtanen <pav@iki.fi>
+        Copyright (c) 2008 The IPython Development Team
+        Copyright (c) 2008-2011 The IPython Development Team
+        Copyright (c) 2008-2011, IPython Development Team
+        Copyright (c) 2008-2012 The IPython Development Team
+        Copyright (c) 2008-Present, IPython Development Team
+        Copyright (c) 2008, IPython Development Team
+        Copyright (c) 2009-2011 The IPython Development Team
+        Copyright (c) 2010 Doug Hellmann
+        Copyright (c) 2010-2011 The IPython Development Team
+        Copyright (c) 2010-2011, IPython Development Team
+        Copyright (c) 2011 The IPython Development Team
+        Copyright (c) 2011, IPython Development Team
+        Copyright (c) 2011, the IPython Development Team
+        Copyright (c) 2012 IPython Development Team
+        Copyright (c) 2012 The IPython Development Team
+        Copyright (c) 2012- The IPython Development Team
+        Copyright (c) 2012, IPython Development Team
+        Copyright (c) 2012, the IPython Development Team
+        Copyright (c) 2013 The IPython Development Team
+        Copyright (c) 2013, the IPython Development Team
+        Copyright (c) 2014, Jonathan Slenders
+        Copyright (c) 2015, Jonathan Slenders
+        Copyright (c) 2016 The IPython Team <ipython-dev@scipy.org>
+        Copyright (c) 2018 The IPython Development Team
+        Copyright (c) IPython Development Team
+        copyright 2007 by Armin Ronacher
+        copyright The IPython Development Team
+        Portions (c) 2009 by Robert Kern
