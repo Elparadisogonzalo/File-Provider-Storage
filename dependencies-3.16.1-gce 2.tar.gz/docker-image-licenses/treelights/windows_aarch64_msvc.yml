@@ -1,0 +1,5 @@
+---
+name: windows_aarch64_msvc
+package: Treelights
+licenses:
+    - text: ""
