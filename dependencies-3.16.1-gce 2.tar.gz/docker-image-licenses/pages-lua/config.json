@@ -1,0 +1,13 @@
+{
+    "whitelist": [
+        "apache-2.0",
+        "bsd-2-clause",
+        "bsd-3-clause",
+        "isc",
+        "mit",
+        "cc0-1.0"
+    ],
+    "reviewed": [
+        "json.lua"
+    ]
+}
