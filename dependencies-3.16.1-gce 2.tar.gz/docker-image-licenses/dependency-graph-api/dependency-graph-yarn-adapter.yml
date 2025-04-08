@@ -1,0 +1,5 @@
+---
+name: dependency-graph-yarn-adapter
+package: Dependency Graph Api
+licenses:
+    - text: ""
