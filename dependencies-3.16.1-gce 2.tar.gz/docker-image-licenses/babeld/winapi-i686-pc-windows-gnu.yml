@@ -1,0 +1,5 @@
+---
+name: winapi-i686-pc-windows-gnu
+package: Babeld
+licenses:
+    - text: ""
