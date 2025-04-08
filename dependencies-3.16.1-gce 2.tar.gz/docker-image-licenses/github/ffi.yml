@@ -1,0 +1,201 @@
+---
+name: ffi
+package: Github
+licenses:
+    - text: "Copyright (c) <year> <owner>. \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    - text: |-
+        (c) 2003-2004 Randolph Chung <tausq@debian.org>
+        (c) 2005-2022 John David Anglin <dave.anglin@bell.net>
+        (c) 2006 Free Software Foundation, Inc.
+        (c) 2008 Red Hat, Inc.
+        (c) 2011 Anthony Green
+        (c) 2022 John David Anglin <dave.anglin@bell.net>
+        Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+        Copyright (c) 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
+        Copyright (c) 1994 X Consortium
+        Copyright (c) 1994-2021 Free Software Foundation, Inc.
+        Copyright (c) 1996 Red Hat, Inc.
+        Copyright (c) 1996-2003 Red Hat, Inc.
+        Copyright (c) 1996-2003, 2007, 2008 Red Hat, Inc.
+        Copyright (c) 1996-2003, 2010 Red Hat, Inc.
+        Copyright (c) 1996-2004 Red Hat, Inc.
+        Copyright (c) 1996-2011 Anthony Green, Red Hat, Inc and others
+        Copyright (c) 1996-2019, 2021-2022 Free Software Foundation, Inc.
+        Copyright (c) 1996-2021 Free Software Foundation, Inc.
+        Copyright (c) 1996-2022 Anthony Green, Red Hat, Inc and others
+        Copyright (c) 1996, 1997, 2003, 2004, 2008 Red Hat, Inc.
+        Copyright (c) 1996, 1998 Red Hat, Inc.
+        Copyright (c) 1996, 1998, 1999, 2001, 2007, 2008 Red Hat, Inc.
+        Copyright (c) 1996, 1998, 2005 Red Hat, Inc.
+        Copyright (c) 1996, 1998, 2005, 2007, 2009, 2010 Red Hat, Inc.
+        Copyright (c) 1996, 1998, 2007 Red Hat, Inc.
+        Copyright (c) 1996, 2003-2004, 2007-2008 Red Hat, Inc.
+        Copyright (c) 1996, 2007, 2008, 2011 Red Hat, Inc.
+        Copyright (c) 1996,1998,2001-2003,2005,2008,2010 Red Hat, Inc.
+        Copyright (c) 1998 Cygnus Solutions
+        Copyright (c) 1998 Geoffrey Keating
+        Copyright (c) 1998, 2001, 2007, 2008 Red Hat, Inc.
+        Copyright (c) 1998, 2001, 2007, 2008, 2011, 2014 Red Hat
+        Copyright (c) 1998, 2007, 2008, 2012 Red Hat, Inc.
+        Copyright (c) 1998, 2008 Red Hat, Inc.
+        Copyright (c) 1998, 2008, 2011 Red Hat, Inc.
+        Copyright (c) 1998, 2012 Andreas Schwab
+        Copyright (c) 1999-2018 Free Software Foundation, Inc.
+        Copyright (c) 1999-2021 Free Software Foundation, Inc.
+        Copyright (c) 1999, 2007, 2008 Red Hat, Inc.
+        Copyright (c) 1999, 2008 Red Hat, Inc.
+        Copyright (c) 2000 Hewlett Packard Company
+        Copyright (c) 2000 John Hornkvist
+        Copyright (c) 2000 Software AG
+        Copyright (c) 2000, 2003, 2004, 2008 Red Hat, Inc.
+        Copyright (c) 2000, 2007 Software AG
+        Copyright (c) 2001 John Hornkvist
+        Copyright (c) 2002 Bo Thorsen
+        Copyright (c) 2002 Bo Thorsen <bo@suse.de>
+        Copyright (c) 2002 Ranjit Mathew
+        Copyright (c) 2002 Roger Sayle
+        Copyright (c) 2002-2008, 2012 Kaz Kojima
+        Copyright (c) 2002, 2003, 2004, 2006, 2008 Kaz Kojima
+        Copyright (c) 2002, 2003, 2004, 2010, Free Software Foundation, Inc.
+        Copyright (c) 2002, 2003, 2009 Free Software Foundation, Inc.
+        Copyright (c) 2002, 2006, 2007, 2009, 2010 Free Software Foundation, Inc.
+        Copyright (c) 2002, 2007 Bo Thorsen <bo@suse.de>
+        Copyright (c) 2002, 2009 Free Software Foundation, Inc.
+        Copyright (c) 2003 Jakub Jelinek <jakub@redhat.com>
+        Copyright (c) 2003-2004, 2006, 2009-2017 Free Software Foundation, Inc.
+        Copyright (c) 2003, 2004, 2006, 2007, 2012 Kaz Kojima
+        Copyright (c) 2003, 2004, 2006, 2008 Kaz Kojima
+        Copyright (c) 2003, 2005, 2008, 2009, 2010, 2011, 2014, 2019, 2022 Free Software Foundation, Inc.
+        Copyright (c) 2003, 2006, 2009, 2010, 2014 Free Software Foundation, Inc.
+        Copyright (c) 2003, 2006, 2009, 2010, 2014, 2018 Free Software Foundation, Inc.
+        Copyright (c) 2003, 2006, 2009, 2010, 2014, 2019 Free Software Foundation, Inc.
+        Copyright (c) 2004 Anthony Green
+        Copyright (c) 2004 Renesas Technology
+        Copyright (c) 2004 Simon Posnjak
+        Copyright (c) 2004-2019, 2021 Bootstrap
+        Copyright (c) 2004, 2005, 2007 Free Software Foundation, Inc.
+        Copyright (c) 2004, 2007 Free Software Foundation, Inc.
+        Copyright (c) 2004, 2010 Free Software Foundation, Inc.
+        Copyright (c) 2005 Axis Communications AB
+        Copyright (c) 2005 Free Software Foundation, Inc.
+        Copyright (c) 2006 Free Software Foundation, Inc.
+        Copyright (c) 2007 Free Software Foundation, Inc.
+        Copyright (c) 2007, 2008 Evan Phoenix
+        Copyright (c) 2007, 2008 Free Software Foundation, Inc
+        Copyright (c) 2007, 2008, 2010 Free Software Foundation, Inc
+        Copyright (c) 2007, 2009, 2010 Free Software Foundation, Inc
+        Copyright (c) 2007, 2009, 2010 Red Hat, Inc.
+        Copyright (c) 2008 Anthony Green
+        Copyright (c) 2008 David Daney
+        Copyright (c) 2008 Free Software Foundation, Inc.
+        Copyright (c) 2008 Guido U. Draheim <guidod@gmx.de>
+        Copyright (c) 2008 Luc Heinrich <luc@honk-honk.com>
+        Copyright (c) 2008 Matteo Frigo
+        Copyright (c) 2008 Mike Dalessio
+        Copyright (c) 2008 Red Hat, Inc.
+        Copyright (c) 2008 Steven G. Johnson <stevenj@alum.mit.edu>
+        Copyright (c) 2008-2010 JRuby project
+        Copyright (c) 2008-2010 Wayne Meissner
+        Copyright (c) 2008-2012 Ruby-FFI
+        Copyright (c) 2008-2013, Ruby FFI project contributors
+        Copyright (c) 2008-2016, Ruby FFI project contributors
+        Copyright (c) 2008, 2009 Andrea Fazzi
+        Copyright (c) 2008, 2009 Luc Heinrich
+        Copyright (c) 2008, 2009 Wayne Meissner
+        Copyright (c) 2008, 2009, Wayne Meissner
+        Copyright (c) 2008, 2010 Free Software Foundation, Inc.
+        Copyright (c) 2008, 2010 Red Hat, Inc.
+        Copyright (c) 2008, 2010, 2018, 2019, 2021 Anthony Green
+        Copyright (c) 2008, Luc Heinrich <luc@honk-honk.com>
+        Copyright (c) 2009 Alan Jenkins <alan-jenkins@tuffmail.co.uk>
+        Copyright (c) 2009 Aman Gupta <aman@tmm1.net>
+        Copyright (c) 2009 Andrea Fazzi <andrea.fazzi@alcacoop.it>
+        Copyright (c) 2009 Bradley Smith <brad@brad-smith.co.uk>
+        Copyright (c) 2009 Guido U. Draheim <guidod@gmx.de>
+        Copyright (c) 2009 Jake Douglas <jake@shiftedlabs.com>
+        Copyright (c) 2009 Luc Heinrich
+        Copyright (c) 2009 Luc Heinrich <luc@honk-honk.com>
+        Copyright (c) 2009 the Initial Developer
+        Copyright (c) 2009-2011 Wayne Meissner
+        Copyright (c) 2009, 2010 Wayne Meissner
+        Copyright (c) 2009, 2010, 2011, 2012 ARM Ltd.
+        Copyright (c) 2009, Aman Gupta
+        Copyright (c) 2009, Luc Heinrich
+        Copyright (c) 2009, Luc Heinrich <luc@honk-honk.com>
+        Copyright (c) 2009, Mike Dalessio <mike.dalessio@gmail.com>
+        Copyright (c) 2009, Wayne Meissner
+        Copyright (c) 2010 CodeSourcery
+        Copyright (c) 2010 Free Software Foundation, Inc.
+        Copyright (c) 2010 Rhys Ulerich <rhys.ulerich@gmail.com>
+        Copyright (c) 2010 Wayne Meissner
+        Copyright (c) 2010-2018 Free Software Foundation, Inc.
+        Copyright (c) 2010-2019, 2021 Bootstrap
+        Copyright (c) 2010, 2019 Free Software Foundation, Inc.
+        Copyright (c) 2010, Wayne Meissner
+        Copyright (c) 2011 Anthony Green
+        Copyright (c) 2011 Free Software Foundation
+        Copyright (c) 2011 Kyle Moffett
+        Copyright (c) 2011 Maarten Bosmans <mkbosmans@gmail.com>
+        Copyright (c) 2011 Plausible Labs Cooperative, Inc.
+        Copyright (c) 2011 Tilera Corp.
+        Copyright (c) 2011 Timothy Wall
+        Copyright (c) 2011, 2012, 2013 Anthony Green
+        Copyright (c) 2011, 2012, 2021 Anthony Green
+        Copyright (c) 2011, 2013 Anthony Green
+        Copyright (c) 2011, 2014 Anthony Green
+        Copyright (c) 2011, 2014, 2019, 2021, 2022 Anthony Green
+        Copyright (c) 2011, 2018, 2022 Anthony Green
+        Copyright (c) 2012 Alan Hourihane
+        Copyright (c) 2012 Alexandre K. I. de Mendonca <alexandre.keunecke@gmail.com>
+        Copyright (c) 2012 Alexandre K. I. de Mendonca <alexandre.keunecke@gmail.com> , Paulo Pizarro <paulo.pizarro@gmail.com>
+        Copyright (c) 2012 Anthony Green
+        Copyright (c) 2012 Tilera Corp.
+        Copyright (c) 2012, 2013 Anthony Green
+        Copyright (c) 2012, 2013 Xilinx, Inc
+        Copyright (c) 2012, 2013, 2018, 2021, 2022 Anthony Green
+        Copyright (c) 2012, 2014, 2018 Anthony Green
+        Copyright (c) 2012, 2016 Thorsten Glaser
+        Copyright (c) 2012, Wayne Meissner
+        Copyright (c) 2013 IBM
+        Copyright (c) 2013 Imagination Technologies
+        Copyright (c) 2013 Imagination Technologies Ltd.
+        Copyright (c) 2013 Mentor Graphics
+        Copyright (c) 2013 Miodrag Vallat. <miod@openbsd.org>
+        Copyright (c) 2013 Synopsys, Inc. (www.synopsys.com)
+        Copyright (c) 2013 Synposys, Inc. (www.synopsys.com)
+        Copyright (c) 2013 Tensilica, Inc.
+        Copyright (c) 2013 The
+        Copyright (c) 2014 Free Software Foundation, Inc.
+        Copyright (c) 2014 Mike Frysinger <vapier@gentoo.org>
+        Copyright (c) 2014 Red Hat, Inc.
+        Copyright (c) 2014 Sebastian Macke <sebastian@macke.de>
+        Copyright (c) 2014 Tsukasa Oi
+        Copyright (c) 2015 Michael Knyszek <mknyszek@berkeley.edu> 2015 Andrew Waterman <waterman@cs.berkeley.edu> 2018 Stef O'Rear <sorear2@gmail.com>
+        Copyright (c) 2015 Michael Petch <mpetch@capp-sysware.com>
+        Copyright (c) 2016, 2017, 2018, 2019, 2020 MetaStack Solutions Ltd.
+        Copyright (c) 2017 Anthony Green
+        Copyright (c) 2017-2018 Alexey Kopytov
+        Copyright (c) 2017, 2022 Anthony Green
+        Copyright (c) 2018 Anthony Green
+        Copyright (c) 2018 John Zaitseff <J.Zaitseff@zap.org.au>
+        Copyright (c) 2018-19 John Zaitseff <J.Zaitseff@zap.org.au>
+        Copyright (c) 2018-2023 Hood Chatham, Brion Vibber, Kleis Auke Wolthuizen, and others
+        Copyright (c) 2019 Anthony Green
+        Copyright (c) 2019 Microsoft Corporation
+        Copyright (c) 2019, 2022 Anthony Green
+        Copyright (c) 2020 Kalray
+        Copyright (c) 2020 Lars Kanis
+        Copyright (c) 2020 Madhavan T. Venkataraman
+        Copyright (c) 2021 Anthony Green
+        Copyright (c) 2021 Free Software Foundation, Inc.
+        Copyright (c) 2021 Microsoft, Inc.
+        Copyright (c) 2022 Anthony Green
+        Copyright (c) 2022 Oracle and/or its affiliates
+        Copyright (c) 2022 Xu Chenghua <xuchenghua@loongson.cn> 2022 Cheng Lulu <chenglulu@loongson.cn>
+        Copyright (c) 2023 Lars Kanis
+        Copyright (c) 2023-2023 Lars Kanis
+        Copyright 1992-2022 Free Software Foundation, Inc.
+        Copyright 1993 Bill Triggs <Bill.Triggs@inrialpes.fr>
+        Copyright 1995-2017 Bruno Haible <bruno@clisp.org>
+        Copyright 2008 2019, 2021, 2022 Anthony Green and Red Hat, Inc.
+        copyrighted by the Free Software Foundation
