@@ -1,0 +1,5 @@
+---
+name: windows_aarch64_gnullvm
+package: Treelights
+licenses:
+    - text: ""
