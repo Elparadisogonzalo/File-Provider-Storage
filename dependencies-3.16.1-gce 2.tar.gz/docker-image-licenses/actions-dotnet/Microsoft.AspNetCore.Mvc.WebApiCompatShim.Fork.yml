@@ -1,0 +1,5 @@
+---
+name: Microsoft.AspNetCore.Mvc.WebApiCompatShim.Fork
+package: Actions Dotnet
+licenses:
+    - text: ""
