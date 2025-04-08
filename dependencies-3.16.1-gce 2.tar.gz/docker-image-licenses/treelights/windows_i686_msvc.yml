@@ -1,0 +1,5 @@
+---
+name: windows_i686_msvc
+package: Treelights
+licenses:
+    - text: ""
