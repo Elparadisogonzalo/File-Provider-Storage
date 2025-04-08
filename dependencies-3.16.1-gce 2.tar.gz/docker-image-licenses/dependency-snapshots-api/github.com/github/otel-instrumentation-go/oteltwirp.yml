@@ -1,0 +1,5 @@
+---
+name: github.com/github/otel-instrumentation-go/oteltwirp
+package: Dependency Snapshots Api
+licenses:
+    - text: ""
