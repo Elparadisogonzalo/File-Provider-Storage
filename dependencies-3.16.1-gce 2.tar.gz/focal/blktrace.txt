@@ -1,0 +1,119 @@
+---
+name: "blktrace"
+version: "1.2.0-5"
+summary: "utilities for block layer IO tracing"
+homepage: "https://git.kernel.org/pub/scm/linux/kernel/git/axboe/blktrace.git/about/"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: seekwatcher
+Source: http://brick.kernel.dk/snaps/
+Comment:
+ This package was debianized by Bas Zoetekouw <bas@debian.org>
+ on Sat Dec  9 16:58:09 CET 2006
+ Source-Git: http://git.kernel.dk/
+
+Files: *
+Copyright:
+    2008      IBM Corp.
+    2008-2009 Hewlett-Packard Development Company, L.P
+    2005-2009 Alan D. Brunelle <Alan.Brunelle@hp.com>
+    2005      Jens Axboe <axboe@suse.de>
+    2006      Jens Axboe <axboe@kernel.dk>
+License: GPL-2+
+Comment:
+ Upstream Authors:
+  * Jens Axboe <axboe@kernel.dk>
+    (initial version and kernel support)
+  * Alan D. Brunelle <Alan.Brunelle@hp.com>
+    (threading, splitup into separate programs, documentation)
+  * Nathan Scott <nathans@sgi.com>
+    (bug fixes, process names, multiple devices)
+
+Files: iowatcher/*
+Copyright: 2012      Fusion-io <chris.mason@fusionio.com>
+           2005-2006 Jens Axboe
+License: GPL-2
+
+Files: jhash.h
+Copyright: 2006 by Bob Jenkins <bob_jenkins@burtleburtle.net>
+           2009 Jozsef Kadlecsik <kadlec@blackhole.kfki.hu>
+License: public-domain
+ You can use this free for any purpose. It's in the public domain. It has no warranty.
+Comment:
+ Original version is available in the public domain.
+ It was adapted for use in the Linux kernel by
+ David S. Miller <davem@redhat.com>.
+
+Files: rbtree.*
+Copyright: 1999 Andrea Arcangeli <andrea@suse.de>
+           2002 David Woodhouse <dwmw2@infradead.org>
+License: GPL-2+
+
+Files: doc/*
+Copyright: 2005-2007 Alan D. Brunelle <Alan.Brunelle@hp.com>
+           2006      Bas Zoetekouw <bas@debian.org>
+           2006      Jens Axboe
+           2006-2007 Nathan Scott.
+           2008      IBM Corp.
+           2008      Hewlett-Packard Development Company, L.P.
+License: GPL-2
+Comment:
+ Man pages were created from the upstream documentation for use with the
+ Debian operating system.
+
+Files: debian/*
+Copyright: 2006-2009 Bas Zoetekouw <bas@debian.org>
+           2012-2015 Dmitry Smirnov <onlyjob@debian.org>
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ ․
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ ․
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ ․
+ The complete text of the GNU General Public License version 2
+ can be found in the file "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License v2 as published
+ by the Free Software Foundation.
+ ․
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ ․
+ The complete text of the GNU General Public License version 2
+ can be found in the file "/usr/share/common-licenses/GPL-2".
