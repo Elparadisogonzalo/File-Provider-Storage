@@ -1,0 +1,5 @@
+---
+name: github.com/streadway/simpleuuid
+package: Launch
+licenses:
+    - text: Copyright (c) 2012 by Sean Treadway ( streadway (http://github.com/streadway))
