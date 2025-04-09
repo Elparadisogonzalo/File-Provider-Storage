@@ -1,0 +1,425 @@
+---
+name: "rrdtool"
+version: "1.7.2-3build2"
+summary: "time-series data storage and display system (programs)"
+homepage: "https://oss.oetiker.ch/rrdtool/"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: RRDtool
+Upstream-Contact: Tobias Oetiker <tobi@oetiker.ch>
+Source: http://oss.oetiker.ch/rrdtool/pub/
+
+Files: *
+Copyright: 1998-2019 Tobias Oetiker <tobi@oetiker.ch>
+License: GPL-2+ with FLOSS exception
+Comment: See CONTRIBUTORS for a list of contributors.
+ .
+ How to make Tobi happy:
+ -----------------------
+ .
+ If you want to show your appreciation for RRDtool you could make me happy
+ by going to http://tobi.oetiker.ch/wish and ordering a CD from my CD wish
+ list ...
+
+Files: debian/*
+Copyright: 1999-2004 Matt Zimmerman <mdz@debian.org>
+           2005-2006 Matthias Klose <doko@debian.org>
+           2006 Laurent Fousse <laurent@komite.net>
+           2006 Josip Rodin <joy-packages@debian.org>
+           2006 Andreas Barth <aba@not.so.argh.org>
+           2007 David Martínez Moreno <ender@debian.org>
+           2008-2009 Bernd Zeimetz <bzed@debian.org>
+           2008 Alexander Wirt <formorer@formorer.de>
+           2008-2014 Sebastian Harl <sh@tokkee.org>
+           2011 Luk Claes <luk@debian.org>
+           2012 Jonathan Wiltshire <jmw@debian.org>
+           2012 Gregor Herrmann <gregoa@debian.org>
+           2013 Alin Dobre <alinmd@gmail.com>
+           2014 Christian Hofstaedtler <zeha@debian.org>
+           2014 Damyan Ivanov <dmn@debian.org>
+           2014-2019 Jean-Michel Vourgère <nirgal@debian.org>
+License: GPL-2+ with FLOSS exception
+
+Files: debian/rrdcached.init
+       debian/rrdcached.default
+Copyright: 1998-2015 Tobias Oetiker <tobi@oetiker.ch>
+License: GPL-2+ with FLOSS exception
+
+Files: bindings/lua/compat-5.1r5/*
+Copyright: 2004-2006 Kepler Project
+License: MIT
+
+Files: bindings/lua/rrdlua.c
+Copyright: 2008 Fidelis Assis
+License: GPL-2+
+
+Files: bindings/python/*
+Copyright: 2012 Christian Jurk <commx@commx.ws>
+License: LGPL-2.1+
+
+Files: bindings/ruby/*
+Copyright: Miles Egan <miles@caddr.com>
+           2006 Loïs Lherbier
+           2010 Pavel Pachkovskij (Azati corp.)
+License: GPL-2+ with FLOSS exception
+
+Files: bindings/tcl/ifOctets.tcl.in
+       bindings/tcl/tclrrd.c
+Copyright: 1999,2000 Frank Strauss, Technical University of Braunschweig.
+           2005 Oleg Derevenetz, CenterTelecom Voronezh ISP.
+License: GPL-2+ with FLOSS exception
+
+Files: bindings/dotnet/*
+       bindings/tcl/tclrrd.c
+Copyright: 2010 Chris Larsen
+License: GPL-2+ with FLOSS exception
+
+Files: doc/bin_dec_hex.pod
+       doc/cdeftutorial.pod
+       doc/rrdgraph.pod
+       doc/rrdgraph_data.pod
+       doc/rrdgraph_examples.pod
+       doc/rrdgraph_graph.pod
+       doc/rrdgraph_rpn.pod
+       doc/rrdresize.pod
+       doc/rrdtutorial.pod
+Copyright: Alex van den Bogaerdt <alex@vandenbogaerdt.nl>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rpntutorial.pod
+Copyright: Steve Rader <rader@wiscnet.net>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdcached.pod
+       doc/rrdflushcached.pod
+Copyright: Florian Forster <octo@verplant.org>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdfirst.pod
+Copyright: Burton Strauss <Burton@ntopSupport.com>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdgraph_libdbi.pod
+Copyright: Martin Sperl <rrdtool@martin.sperl.org>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdlast.pod
+Copyright: Russ Wright <rwwright@home.com>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdlastupdate.pod
+Copyright: Andy Riebs <andy.riebs@hp.com>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdlist.pod
+Copyright: Sebastien Dugue <sebastien.dugue@atos.net>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdlua.pod
+Copyright: Fidelis Assis <fidelis@pobox.com>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdthreads.pod
+Copyright: Peter Stamfest <peter@stamfest.at>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrdupdate.pod
+Copyright: Tobias Oetiker <tobi@oetiker.ch>
+           Florian Forster <octo@verplant.org>
+License: GPL-2+ with FLOSS exception
+
+Files: doc/rrd-beginners.pod
+Copyright: Ketan Patel <k2pattu@yahoo.com>
+License: GPL-2+ with FLOSS exception
+
+Files: m4/*
+       */Makefile.in
+       configure
+       conftools/*
+Copyright: 1992-2015 Free Software Foundation, Inc.
+License: FSF
+
+Files: m4/acinclude.m4
+Copyright: 1998-2010 Tobias Oetiker <tobi@oetiker.ch>
+           2016 Marek Schimara <Marek.Schimara@bull.net>
+License: GPL-2+ with FLOSS exception
+
+Files: src/fnv.h
+       src/hash_32.c
+Copyright: chongo "Landon Curt Noll /\oo/\" <chongo_fnv@prime.engr.sgi.com>
+License: public-domain
+ Please do not copyright this code.  This code is in the public domain.
+ .
+ LANDON CURT NOLL DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+ INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+ EVENT SHALL LANDON CURT NOLL BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+ CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF
+ USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ PERFORMANCE OF THIS SOFTWARE.
+
+Files: src/gettext.h
+Copyright: 1995-2006 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/rrd_parsetime.c
+Copyright: 1993,1994 Thomas Koenig
+           1993 David Parsons
+           1999 Oleg Cherevko (aka Olwi Deer)
+           1999 Tobi Oetiker
+License: BSD-2-clause
+
+Files: src/plbasename.c
+       src/plbasename.h
+Copyright: 2005 Syd Logan
+           2008 Stefan Ludewig <stefan.ludewig@exitgames.com>
+License: plbasename
+
+Files: src/rrd_client.c
+       src/rrd_client.h
+       src/rrd_flushcached.c
+Copyright: 2008 Florian octo Forster <octo@verplant.org>
+License: MIT
+
+Files: src/rrd_daemon.c
+Copyright: 2008-2009 Florian octo Forster <octo@verplant.org>
+           2008-2009 Kevin Brintnall <kbrint@rufus.net>
+License: GPL-2
+
+Files: src/rrd_fetch_libdbi.c
+Copyright: Martin Sperl <rrdtool@martin.sperl.org>
+License: GPL-2+ with FLOSS exception
+
+Files: src/rrd_hw.c
+Copyright: 2000 Jake Brutlag, WebTV Networks
+           1997-2010 Tobias Oetiker
+License: GPL-2+ with FLOSS exception
+
+Files: src/rrd_i18n.h
+Copyright: 2008 Takao Fujiwara
+License: GPL-2+ with FLOSS exception
+
+Files: src/rrd_is_thread_safe.h
+       src/rrd_thread_safe.c
+       src/rrd_thread_safe_nt.c
+Copyright: 1997-2010 Tobias Oetiker
+           2003 Peter Stamfest <peter@stamfest.at>
+License: GPL-2+ with FLOSS exception
+
+Files: src/rrd_last.c
+Copyright: 1998 Russ Wright, @Home Network
+           1997-2010 Tobias Oetiker
+License: GPL-2+ with FLOSS exception
+
+Files: src/rrd_lastupdate.c
+       src/rrd_restore.c
+       src/rrd_update.c
+Copyright: 1997-2010 Tobias Oetiker
+           2008 Florian Forster
+License: GPL-2+ with FLOSS exception
+
+Files: src/rrd_utils.c
+Copyright: 2009 Kevin Brintnall
+           2008 Sebastian Harl
+License: GPL-2+ with FLOSS exception
+
+Files: src/strftime.c
+Copyright: 1989 Jim Nutt
+           1989 Rob Duff
+           2004 Tobias Oetiker
+License: public_domain
+ Released into the public domain by Jim Nutt
+
+License: GPL-2+ with FLOSS exception
+ GNU GPL License
+ ===============
+ .
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the Free
+ Software Foundation; either version 2 of the License, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+ more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software
+ Foundation, Inc.,  51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, a copy of the GNU General Public License, version 2,
+ can be found in the file /usr/share/common-licenses/GPL-2.
+ .
+ FLOSS License Exception
+ =======================
+ (Adapted from http://www.mysql.com/company/legal/licensing/foss-exception.html)
+ .
+ I want specified Free/Libre and Open Source Software ("FLOSS")
+ applications to be able to use specified GPL-licensed RRDtool
+ libraries (the "Program") despite the fact that not all FLOSS licenses are
+ compatible with version 2 of the GNU General Public License (the "GPL").
+ .
+ As a special exception to the terms and conditions of version 2.0 of the GPL:
+ .
+ You are free to distribute a Derivative Work that is formed entirely from
+ the Program and one or more works (each, a "FLOSS Work") licensed under one
+ or more of the licenses listed below, as long as:
+ .
+   1. You obey the GPL in all respects for the Program and the Derivative
+   Work, except for identifiable sections of the Derivative Work which are
+   not derived from the Program, and which can reasonably be considered
+   independent and separate works in themselves,
+ .
+   2. all identifiable sections of the Derivative Work which are not derived
+   from the Program, and which can reasonably be considered independent and
+   separate works in themselves,
+ .
+         1. are distributed subject to one of the FLOSS licenses listed
+         below, and
+ .
+         2. the object code or executable form of those sections are
+         accompanied by the complete corresponding machine-readable source
+         code for those sections on the same medium and under the same FLOSS
+         license as the corresponding object code or executable forms of
+         those sections, and
+ .
+   3. any works which are aggregated with the Program or with a Derivative
+   Work on a volume of a storage or distribution medium in accordance with
+   the GPL, can reasonably be considered independent and separate works in
+   themselves which are not derivatives of either the Program, a Derivative
+   Work or a FLOSS Work.
+ .
+ If the above conditions are not met, then the Program may only be copied,
+ modified, distributed or used under the terms and conditions of the GPL.
+ .
+ FLOSS License List
+ ==================
+ License name	Version(s)/Copyright Date
+ Academic Free License		2.0
+ Apache Software License	1.0/1.1/2.0
+ Apple Public Source License	2.0
+ Artistic license		From Perl 5.8.0
+ BSD license			"July 22 1999"
+ Common Public License		1.0
+ GNU Library or "Lesser" General Public License (LGPL)	2.0/2.1
+ IBM Public License, Version    1.0
+ Jabber Open Source License	1.0
+ MIT License (As listed in file MIT-License.txt)	-
+ Mozilla Public License (MPL)	1.0/1.1
+ Open Software License		2.0
+ OpenSSL license (with original SSLeay license)	"2003" ("1998")
+ PHP License			3.0
+ Python license (CNRI Python License)	-
+ Python Software Foundation License	2.1.1
+ Sleepycat License		"1999"
+ W3C License			"2001"
+ X11 License			"2001"
+ Zlib/libpng License		-
+ Zope Public License		2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. The name of the author(s) may not be used to endorse or promote
+    products derived from this software without specific prior written
+    permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR(S) ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the text of the GNU Lesser General Public License
+ version 2 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: plbasename
+ This code is distributed without warranty. You are free to use this
+ code for any purpose, however, if this code is republished or
+ redistributed in its original form, as hardcopy or electronically,
+ then you must include this copyright notice along with the code.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; only version 2 of the License is applicable.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: FSF
+   This file is free software; the Free Software Foundation
+   gives unlimited permission to copy and/or distribute it,
+   with or without modifications, as long as this notice is preserved.
