@@ -1,0 +1,37 @@
+---
+name: "libperl4-corelibs-perl"
+version: "0.004-2"
+summary: "libraries historically supplied with Perl 4"
+homepage: "https://metacpan.org/release/Perl4-CoreLibs"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Perl4-CoreLibs
+Upstream-Contact: Andrew Main (Zefram) <zefram@fysh.org>
+Source: https://metacpan.org/release/Perl4-CoreLibs
+
+Files: *
+Copyright: 1987-2009 Larry Wall et al
+ 2010, 2011, 2017 Andrew Main (Zefram) <zefram@fysh.org>
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2011, Dominic Hargreaves <dom@earth.li>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.
