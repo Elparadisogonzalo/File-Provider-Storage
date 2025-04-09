@@ -1,0 +1,9 @@
+---
+name: "lockrun"
+version: "1.0+github5"
+summary: "Run cron job with overrun protection"
+homepage: "https://github.com/jakedouglas/lockrun/blob/784e3339ec0f9d205a79ff9b3091e1b1add1272b/README.markdown"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+This software is public domain.
