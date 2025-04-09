@@ -1,0 +1,34 @@
+---
+name: "numad"
+version: "0.5+20150602-5ubuntu1"
+summary: "User-level daemon that monitors NUMA topology and usage"
+homepage: "https://git.fedorahosted.org/cgit/numad.git"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: numad
+Source: https://git.fedorahosted.org/cgit/numad.git
+
+Files: *
+Copyright: 2012-2015 Jan Synacek <jsynacek@redhat.com>, Red Hat Inc.
+           2012 Bill Gray <bgray@redhat.com>, Red Hat Inc.
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2015 Jeremías Casteglione <debian@jrms.com.ar>
+           2015 gustavo panizzo <gfa@zumbi.com.ar>
+License: LGPL-2.1
+
+License: LGPL-2.1
+ numad is free software; you can redistribute it and/or modify it under the
+ terms of the GNU Lesser General Public License as published by the Free
+ Software Foundation; version 2.1.
+ .
+ numad is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+ details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
