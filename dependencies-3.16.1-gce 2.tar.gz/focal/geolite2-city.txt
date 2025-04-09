@@ -1,0 +1,18 @@
+---
+name: "geolite2-city"
+version: "20230404+github2"
+summary: "GeoIP2 City Database for use with the GeoIP2 library"
+homepage: "http://www.maxmind.com/app/city"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com.
+
+Database and Contents Copyright (c) 2023 MaxMind, Inc.
+
+This database is confidential and proprietary to MaxMind, Inc., and may not be
+reproduced, published or disclosed to others without company authorization.
+
+Use of this MaxMind product is governed by MaxMind's End User License Agreement, which can be viewed at https://www.maxmind.com/en/end-user-license-agreement.
+
+This database incorporates GeoNames [https://www.geonames.org] geographical data, which is made available under the Creative Commons Attribution 4.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
