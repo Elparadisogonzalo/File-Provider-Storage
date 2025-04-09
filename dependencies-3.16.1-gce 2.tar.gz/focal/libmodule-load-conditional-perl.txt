@@ -1,0 +1,45 @@
+---
+name: "libmodule-load-conditional-perl"
+version: "0.70-1"
+summary: "module for looking up information about modules"
+homepage: "https://metacpan.org/release/Module-Load-Conditional"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Module-Load-Conditional
+Upstream-Contact: Chris Williams <chris@bingosnet.co.uk>
+Source: https://metacpan.org/release/Module-Load-Conditional
+
+Files: *
+Copyright: 2002, Jos Boumans <kane[at]cpan.org>
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright:
+ 2007, Alejandro Garrido Mota <garridomota@gmail.com>
+ 2008-2014, gregor herrmann <gregoa@debian.org>
+ 2008, Damyan Ivanov <dmn@debian.org>
+ 2008, Roberto C. Sanchez <roberto@debian.org>
+ 2009, Rene Mayorga <rmayorga@debian.org>
+ 2010, Ansgar Burchardt <ansgar@debian.org>
+ 2010, Jonathan Yu <jawnsy@cpan.org>
+ 2011, Nicholas Bamber <nicholas@periapt.co.uk>
+ 2019, Nick Morrott <nickm@debian.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.
