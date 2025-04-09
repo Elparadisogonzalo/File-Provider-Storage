@@ -1,0 +1,40 @@
+---
+name: "libnet-daemon-perl"
+version: "0.48-2"
+summary: "Perl module for building portable Perl daemons easily"
+homepage: "https://metacpan.org/release/Net-Daemon"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://metacpan.org/release/Net-Daemon
+Upstream-Contact: Jochen Wiedmann (joe@ispsoft.de)
+Upstream-Name: Net-Daemon
+
+Files: *
+Copyright: 1998, Jochen Wiedmann (joe@ispsoft.de)
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2000, 2001, 2002, 2004, Mike Mattice <mattice@debian.org>
+ 2006, Stephen Quinney <sjq@debian.org>
+ 2008, 2011, Anibal Monsalve Salazar <anibal@debian.org>
+ 2016, Christian Hofstaedtler <zeha@debian.org>
+ 2019, gregor herrmann <gregoa@debian.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.
