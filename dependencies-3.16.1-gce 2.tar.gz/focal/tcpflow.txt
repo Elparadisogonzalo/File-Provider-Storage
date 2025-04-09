@@ -1,0 +1,305 @@
+---
+name: "tcpflow"
+version: "1.5.2+repack1-1build2"
+summary: "TCP flow recorder"
+homepage: "https://github.com/simsong/tcpflow"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/simsong/tcpflow
+Upstream-Contact: Simson Garfinkel <simsong@acm.org>
+Upstream-Name: tcpflow
+
+Files: *
+Copyright: 1999-2003 Jeremy Elson <jelson@circlemud.org>
+           2012-2013 Simson Garfinkel <simsong@acm.org>
+License: GPL-3
+
+Files: src/wifipcap/*
+Copyright: 2008 Jeff Pang <jeffpang@cs.cmu.edu>
+License: BSD-2clause-MadoryPang
+Comment: Confirmed by email to the author
+
+Files: src/be13_api/* src/dfxml/*
+Copyright: 2013 Simson Garfinkel <simsong@acm.org>
+License: public-domain
+ Confirmed by email to the author
+
+Files: src/wifipcap/cpack.*
+Copyright: 2003-2004 David Young
+License: BSD-3clause-Young
+
+License: BSD-3clause-Young
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of David Young may not be used to endorse or promote
+    products derived from this software without specific prior
+    written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY DAVID YOUNG ``AS IS'' AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL DAVID
+ YOUNG BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+ OF SUCH DAMAGE.
+
+
+Files: src/radiotap_old.c
+Copyright:  2007 Andy Green <andy@warmcat.com>
+            2009 Johannes Berg <johannes@sipsolutions.net>
+License: GPL-2
+
+Files: src/wifipcap/wifipcap.cpp
+Copyright: 1998 Gerald Combs <gerald@ethereal.com>
+           2006-2007 Doug Madory
+           2008 Jeff Pang <jeffpang@cs.cmu.edu>
+           2013 Simson Garfinkel <simsong@acm.org>
+License: GPL-3
+Comment: This has a piece by Gerald Combs, which is licensed GPL-2+. The bulk of
+ the file is by Doug Madory and Jeff Pang (BSD-2clause) and Simson Garfinkel
+ (GPL-3). Combination is GPL-3
+
+
+Files: src/wifipcap/wifipcap.h
+Copyright: 2006-2007 Doug Madory
+           2008 Jeff Pang <jeffpang@cs.cmu.edu>
+           2013 Simson Garfinkel <simsong@acm.org>
+License: GPL-3
+Comment: The bulk of the file is by Doug Madory and Jeff Pang (BSD-2clause) and
+ Simson Garfinkel (GPL-3). Combination is GPL-3
+
+
+Files: src/mime_map.*
+Copyright: 2012 Will Glynn <will@willglynn.com>
+License: GPL-3
+Comment: License Confirmed in an email to the author. Patch documenting this
+ added right after the 1.4.0 release of tcpflow
+
+
+Files: src/wifipcap/ethertype.h
+Copyright: 1993, 1994, 1996 The Regents of the University of California
+License: BSD-3clause-uni
+
+Files: src/wifipcap/extract.h
+Copyright: 1992, 1993, 1994, 1995, 1996 The Regents of the University of California
+License: BSD-3clause-uni
+
+Files: src/wifipcap/llc.h
+Copyright: 1993, 1994, 1997 The Regents of the University of California
+License: BSD-3clause-uni
+
+License: BSD-3clause-uni
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: (1) source code distributions
+ retain the above copyright notice and this paragraph in its entirety, (2)
+ distributions including binary code include the above copyright notice and
+ this paragraph in its entirety in the documentation or other materials
+ provided with the distribution, and (3) all advertising materials mentioning
+ features or use of this software display the following acknowledgement:
+ ``This product includes software developed by the University of California,
+ Lawrence Berkeley Laboratory and its contributors.'' Neither the name of
+ the University nor the names of its contributors may be used to endorse
+ or promote products derived from this software without specific prior
+ written permission.
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Files: src/wifipcap/ieee802_11_radio.h
+Copyright: 2003, 2004 David Young
+License: BSD-3clause-Young
+
+Files: src/wifipcap/oui.h
+Copyright: 2006 Hannes Gredler <hannes@juniper.net>
+License: BSD-2clause
+
+Files: src/netviz/*
+Copyright: 2012-2013 Michael Shick <mfshick@nps.edu>
+License: public-domain
+ This source file is public domain, as it is not based on the original tcpflow
+
+Files: src/hold/tcp_options.cpp
+Copyright: 2006-2007 Doug Madory
+           2008 Jeff Pang <jeffpang@cs.cmu.edu>
+License: BSD-2clause-MadoryPang
+
+
+Files: src/wifipcap/TimeVal.*
+Copyright: 2004-2005 Ashwin Bharambe <ashu@cs.cmu.edu>
+           2004-2005 Jeffrey Pang <jeffpang@cs.cmu.edu>
+           2004 Mukesh Agrawal <mukesh@cs.cmu.edu>
+           2003 Justin Weisz <jweisz@cs.cmu.edu>
+License: GPL-2+
+
+Files: src/wifipcap/arp.h
+Copyright: 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997 The Regents of the University of California
+License: BSD-3clause-uni
+
+Files: src/wifipcap/icmp.h
+Copyright: 1988, 1989, 1990, 1991, 1993, 1994, 1995, 1996 The Regents of the University of California
+License: BSD-3clause-uni
+
+Files: src/wifipcap/types.h
+Copyright: 2004-2005 Ashwin Bharambe <ashu@cs.cmu.edu>
+           2004-2005 Jeffrey Pang <jeffpang@cs.cmu.edu>
+                2004 Mukesh Agrawal <mukesh@cs.cmu.edu>
+License: GPL-2+
+
+Files: src/wifipcap/ip6.h
+Copyright: 1995, 1996, 1997, and 1998 WIDE Project.
+           1982, 1986, 1993 The Regents of the University of California
+License: BSD-4clause
+
+Files: src/wifipcap/ipproto.h
+Copyright: 1982, 1986, 1990, 1993 The Regents of the University of California
+License: BSD-4clause
+
+Files: src/wifipcap/ip.h src/wifipcap/tcp.h src/wifipcap/udp.h
+Copyright: 1982, 1986, 1993 The Regents of the University of California
+License: BSD-4clause
+
+License: BSD-4clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+	This product includes software developed by the University of
+	California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-2clause-MadoryPang
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met: 
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer. 
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution. 
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-2clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: (1) source code
+ distributions retain the above copyright notice and this paragraph
+ in its entirety, and (2) distributions including binary code include
+ the above copyright notice and this paragraph in its entirety in
+ the documentation or other materials provided with the distribution.
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND
+ WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT
+ LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE.
+
+
+Files: src/be13_api/utf8/* src/be13_api/utf8.h
+Copyright: 2006 Nemanja Trifunovic
+License: Expat-Trifunovic
+ Permission is hereby granted, free of charge, to any person or organization
+ obtaining a copy of the software and accompanying documentation covered by
+ this license (the "Software") to use, reproduce, display, distribute,
+ execute, and transmit the Software, and to prepare derivative works of the
+ Software, and to permit third-parties to whom the Software is furnished to
+ do so, all subject to the following:
+ .
+ The copyright notices in the Software and this entire statement, including
+ the above license grant, this restriction and the following disclaimer,
+ must be included in all copies of the Software, in whole or in part, and
+ all derivative works of the Software, unless such copies or derivative
+ works are solely in the form of machine-executable object code generated by
+ a source language processor.
+ . 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files: src/be13_api/net_ethernet.h
+Copyright: 1997, 1999, 2001, 2008 Free Software Foundation, Inc.
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2012-2013 Dima Kogan <dima@secretsauce.net>
+           2000 Robert McQueen <robot101@debian.org>
+           2006-2010 Romain Francoise <rfrancoise@debian.org>
+License: GPL-3
+
+License: GPL-3
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License (version 3) as published by the
+ Free Software Foundation.
+ .
+ On Debian GNU/Linux systems, the complete text of version 3 of the General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU Lesser General Public License as published by the Free
+ Software Foundation; either version 2.1 of the License, or (at your option) any
+ later version.
+ .
+ On Debian GNU/Linux systems, the complete text of version 2.1 of the Lesser
+ General Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License version 2 as published by the Free
+ Software Foundation.
+ .
+ On Debian GNU/Linux systems, the complete text of version 2 of the General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; either version 2 of the License, or (at your option) any later
+ version.
+ .
+ On Debian GNU/Linux systems, the complete text of version 2.1 of the General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
