@@ -1,0 +1,9 @@
+---
+name: "git"
+version: "3:1+github-2.45.2-4574-g50ee4bdaf298"
+summary: "The Git DVCS with custom patches and bugfixes for GitHub."
+homepage: "http://git-scm.com"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+
