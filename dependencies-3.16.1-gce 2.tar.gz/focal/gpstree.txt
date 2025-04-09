@@ -1,0 +1,15 @@
+---
+name: "gpstree"
+version: "2.33+github3"
+summary: "better than psmisc"
+homepage: "http://www.thp.uni-duisburg.de/pstree/"
+package: "Ubuntu 20.04.6 LTS"
+license: other
+---
+/*  This is pstree written by Fred Hucht (c) 1993-2010  *
+ *  EMail: fred AT thp.Uni-Duisburg.de                  *
+ *  Feel free to copy and redistribute in terms of the  *
+ *  GNU public license.                                 *
+ *
+ * $Id: pstree.c,v 2.33 2009-11-10 22:12:39+01 fred Exp $
+ */
