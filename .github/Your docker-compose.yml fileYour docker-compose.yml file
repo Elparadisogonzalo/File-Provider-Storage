@@ -9,7 +9,7 @@ services:
   volumes:
    - /ip4/127.0.0.1/tcp/8551:/usr/share/nginx/html/
  elparadisogonzalo:
-  image: 'nextcloud:latest'
+  image: 'GitLab Container Registry:latest'
   container_name: 'elparadisogonzalo'
   volumes:
    - /ip4/127.0.0.1/tcp/8551:/var/www/html/
