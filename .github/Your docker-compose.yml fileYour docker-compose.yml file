@@ -1,14 +1,15 @@
-version: '3.8'
+variables:
+  CI_DEBUG_TRACE: "true"version: '3.8'
 services:
  elp:
   image: 'nginx:latest'
   container_name: 'elp'
   ports:
-   - 443:443
+   - 80:80
   volumes:
-   - /ip4/127.0.0.1/tcp/5001:/usr/share/nginx/html/
+   - /ip4/127.0.0.1/tcp/8551:/usr/share/nginx/html/
  elparadisogonzalo:
   image: 'nextcloud:latest'
   container_name: 'elparadisogonzalo'
   volumes:
-   - /ip4/127.0.0.1/tcp/5001:/var/www/html/
+   - /ip4/127.0.0.1/tcp/8551:/var/www/html/
