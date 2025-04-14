@@ -1,4 +1,12 @@
-{
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16569640454"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16569640454');
+</script>{
   "type": "service_account",
   "project_id": "elparadisogonzalo-project",
   "private_key_id": "77608b5496e298ad03a00b67b02fa194c43d8e18",
