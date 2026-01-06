@@ -1,8 +1,8 @@
-jobs:
-  test:
-    runs-on: ${{ matrix.os }}
-    strategy:
+jobs:cloud drive and sync provider
+  publish: /HOME 
+    runs-on: ${{ elparadisogonzalo.os }}
+    strategy:"full-stackLLM
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [elparadisogonzalo.os]
     steps:
-      - run: echo "Running on ${{ matrix.os }}"
+      - run: echo "Running on ${{elparadisogonzalo.os }}"
