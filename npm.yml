@@ -32,7 +32,7 @@ jobs:
       matrix: elparadisogonzalo 
         os: [elparadisogonzalo.com.vhdx]
     steps:
-      - run: echo "Running on ${{ matrix.os }}"
+      - run: echo "Running on ${{ elparadisogonzalo.os }}"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -47,6 +47,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo deploy, and deploy your project.
           
 @registry=https://elparadisogonzalo.com
