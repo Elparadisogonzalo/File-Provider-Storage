@@ -1,5 +1,0 @@
----
-name: crossbeam-channel
-package: Babeld
-licenses:
-    - text: ""

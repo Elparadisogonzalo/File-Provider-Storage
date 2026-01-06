@@ -1,5 +1,0 @@
----
-name: go.opentelemetry.io/otel/exporters
-package: Dependency Snapshots Api
-licenses:
-    - text: ""

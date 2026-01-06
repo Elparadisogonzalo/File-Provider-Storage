@@ -1,5 +1,0 @@
----
-name: windows_aarch64_msvc
-package: Babeld
-licenses:
-    - text: ""

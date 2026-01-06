@@ -1,5 +1,0 @@
----
-name: rustc-demangle
-package: Babeld
-licenses:
-    - text: ""

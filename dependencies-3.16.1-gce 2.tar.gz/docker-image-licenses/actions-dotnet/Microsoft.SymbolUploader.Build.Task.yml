@@ -1,5 +1,0 @@
----
-name: Microsoft.SymbolUploader.Build.Task
-package: Actions Dotnet
-licenses:
-    - text: ""

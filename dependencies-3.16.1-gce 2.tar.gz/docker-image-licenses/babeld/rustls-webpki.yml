@@ -1,5 +1,0 @@
----
-name: rustls-webpki
-package: Babeld
-licenses:
-    - text: ""
